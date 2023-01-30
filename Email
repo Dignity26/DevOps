@@ -1,0 +1,6 @@
+SMPT server   smtp.gmail.com
+port 465
+
+
+outlook smtp.office365.com
+587
