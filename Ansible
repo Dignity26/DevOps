@@ -24,4 +24,6 @@ ssh ubuntu@ip-adrdess
 ssh localhost
 
 ansible -m ping all
+ansible -m ping webservers
+ansible -m ping dbservers
 ===
