@@ -11,3 +11,17 @@ apt-add-repository ppa:ansible/ansible
 cat /etc/apt/sources.list.d/ansible-ubuntu-ansible-jammy.list
 apt-get update
 sudo apt-get install ansible
+==
+add host in etc/ansible/hosts
+sudo vi /etc/ansible/hosts
+
+===
+
+ssh-keygen
+cd .ssh
+cat id_rsa.pub >> authorized_keys
+ssh ubuntu@ip-adrdess
+ssh localhost
+
+ansible -m ping all
+===
