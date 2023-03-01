@@ -1,0 +1,12 @@
+apt-get update
+
+pip install ansible--2.4.0.0
+
+python --version
+python3 --version
+apt-get install -f
+apt-get install software-properties-common 
+apt-add-repository ppa:ansible/ansible
+cat /etc/apt/sources.list.d/ansible-ubuntu-ansible-jammy.list
+apt-get update
+sudo apt-get install ansible
